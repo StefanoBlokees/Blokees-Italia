@@ -91,7 +91,7 @@
 </head>
 <body>
   <header>
-    <img src="cce87504-a27e-4415-a3f6-83617958517a.png" alt="Blokees Logo" class="logo">
+    <img src="header.jpg" alt="Header Blokees" style="width: 100%; height: auto; display: block;">
     <h1>Blokees arriva in Italia!</h1>
     <p>La nuova frontiera del divertimento creativo per bambini e collezionisti.</p>
     <a class="cta-btn" href="#contatti">Diventa rivenditore</a>
@@ -115,11 +115,22 @@
     <h2>Catalogo Blokees 2025</h2>
     <p>Sfoglia il nostro catalogo prodotti completo, con licenze esclusive e dettagli tecnici.</p>
     <p><a href="https://book.yunzhan365.com/bookcase/erlum/index.html" target="_blank">📘 Accedi al catalogo online</a></p>
-    <p><strong>Password:</strong> BlokeesEU</p>
-
+    
     <h2 id="contatti">Contattaci</h2>
     <form action="https://formspree.io/f/your-form-id" method="POST">
-      <input type="text" name="name" placeholder="Il tuo nome" required />
+      <input type="text" name="company" placeholder="Nome azienda" required />
+      <input type="text" name="firstname" placeholder="Nome" required />
+      <input type="text" name="lastname" placeholder="Cognome" required />
+      <input type="text" name="city" placeholder="Città" required />
+      <select name="country" required>
+        <option value="">Seleziona la nazione</option>
+        <option value="Italia">Italia</option>
+        <option value="Francia">Francia</option>
+        <option value="Germania">Germania</option>
+        <option value="Spagna">Spagna</option>
+        <option value="Regno Unito">Regno Unito</option>
+        <option value="Altro">Altro</option>
+      </select>
       <input type="email" name="email" placeholder="La tua email" required />
       <textarea name="message" placeholder="Il tuo messaggio" rows="5" required></textarea>
       <button type="submit">Invia</button>
